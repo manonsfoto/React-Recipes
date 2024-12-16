@@ -1,0 +1,48 @@
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 10px;
+}
+.logo {
+  width: 3rem;
+}
+.nav {
+  flex-direction: row;
+  gap: 1rem;
+}
+.nav-list {
+  flex-direction: row;
+  list-style: none;
+  gap: 3rem;
+}
+.search-box {
+  position: relative;
+}
+.search-box input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px gray;
+  background-color: rgb(249, 233, 212);
+  font-family: "Urbanist", Helvetica, sans-serif;
+}
+.search-output {
+  position: absolute;
+  top: 5rem;
+  right: 10px;
+}
+.search-output div {
+  background-color: rgb(255, 73, 33);
+  color: #f4f1f1;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 15px;
+  width: 300px;
+}
+.recipe-name {
+  color: #f4f1f1;
+}
+.search-output div a:hover {
+  text-decoration: underline;
+}

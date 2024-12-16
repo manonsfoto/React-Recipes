@@ -1,0 +1,10 @@
+.r-list {
+  padding: 10px;
+}
+.r-list h3 {
+  margin-bottom: 2rem;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
